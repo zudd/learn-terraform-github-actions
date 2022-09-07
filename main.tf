@@ -1,3 +1,4 @@
+#adding commment
 terraform {
   required_providers {
     aws = {
@@ -12,7 +13,7 @@ terraform {
   required_version = "~> 1.0"
 
   backend "remote" {
-    organization = "zuddy-learn"
+    organization = "zuddy-learn1"
 
     workspaces {
       name = "cicd_terraform"
